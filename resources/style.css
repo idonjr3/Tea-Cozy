@@ -1,0 +1,22 @@
+body{
+  background-color: Black;
+  color: white;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+}
+
+header{
+  position: fixed;
+
+}
+
+.flex-container nav{
+display: inline-block;
+align-content: center;
+}
+
+nav span{
+  text-decoration: underline;
+}
