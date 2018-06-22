@@ -1,22 +1,47 @@
 body{
-  background-color: Black;
-  color: white;
-  font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
-  font-family: Helvetica;
+	margin:0;
+  	background-color: Black;
+	color: white;
+  	font-size: 22px;
+  	opacity: 0.9;
+  	font-family: Helvetica;
+}
+
+.container{
+	display: flex;
+ 	justify-content: center;
+	flex-wrap: wrap;
+}
+
+a{
+	color: seashell;
+	
 }
 
 header{
-  position: fixed;
-
+	height: 69px;
+	position: fixed;
+	border-bottom:1px solid seashell;
+	width: 100%;
+	align-items: center;
 }
 
-.flex-container nav{
-display: inline-block;
-align-content: center;
+	
+nav{
+	text-align: right;
+	flex-grow: 1;
+	
 }
 
 nav span{
-  text-decoration: underline;
+	display: inline-block;
+	text-decoration: underline;
+	padding: 20px 10px;
+	
 }
+
+.logo{
+	margin-left: 10px;
+	height: 50px;
+}
+
