@@ -11,6 +11,7 @@ body{
 	display: flex;
  	justify-content: center;
 	flex-wrap: wrap;
+
 }
 
 a{
@@ -19,11 +20,12 @@ a{
 }
 
 header{
-	height: 69px;
+	height: 70px;
 	position: fixed;
 	border-bottom:1px solid seashell;
 	width: 100%;
 	align-items: center;
+	background-color: black;
 }
 
 	
@@ -43,5 +45,22 @@ nav span{
 .logo{
 	margin-left: 10px;
 	height: 50px;
+}
+
+
+ .Mission{
+	display: flex;
+	background-image: url(Images/mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+	margin: auto;
+}
+
+#content{
+	width: 1200px;
+	margin: auto;
+	background-color: black;
+	text-align: center;
+	align-content: center;
 }
 
