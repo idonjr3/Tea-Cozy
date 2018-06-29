@@ -90,4 +90,27 @@ div {
 	margin: 10px;
 }
 
+#locations{
+	background-image: url(Images/locations-background.jpg);
+	height: 500px;
+	margin: auto;
+	width: 1200px;
+	text-align: center;
+}
 
+.city{
+	display: inline-block;
+	text-align: center;
+	background-color: black;
+	width: 300px;
+	height: auto;
+	margin-top: 15px;
+	margin:0px 40px;
+	padding-bottom: 20px;
+	opacity: 1;
+}
+
+span{
+	display: flex;
+	justify-content: center;
+}
