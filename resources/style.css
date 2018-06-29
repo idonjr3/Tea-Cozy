@@ -1,7 +1,7 @@
 body{
 	margin:0;
   	background-color: Black;
-	color: white;
+	color: seashell;
   	font-size: 22px;
   	opacity: 0.9;
   	font-family: Helvetica;
@@ -113,4 +113,14 @@ div {
 span{
 	display: flex;
 	justify-content: center;
+}
+
+#footer{
+	height: 200px;
+	text-align: center;
+}
+
+#copyright{
+	margin: 20px;
+	text-align: left;
 }
